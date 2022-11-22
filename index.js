@@ -562,6 +562,7 @@ osmtogeojson = function( data, options, featureCallback ) {
           "role" : rel.members[j].role,
           "rel" : rel.id,
           "reltags" : rel.tags,
+          "index": j
         });
       }
     }
